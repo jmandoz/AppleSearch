@@ -11,6 +11,8 @@
 		A4EA25EA22C522AF00B8941F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4EA25E822C522AF00B8941F /* Main.storyboard */; };
 		A4EA25EC22C522B000B8941F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4EA25EB22C522B000B8941F /* Assets.xcassets */; };
 		A4EA25EF22C522B000B8941F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4EA25ED22C522B000B8941F /* LaunchScreen.storyboard */; };
+		A4EA25F822C5259100B8941F /* ApplesearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EA25F722C5259100B8941F /* ApplesearchTableViewController.swift */; };
+		A4EA25FA22C525FB00B8941F /* AppleItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EA25F922C525FB00B8941F /* AppleItemTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		A4EA25EB22C522B000B8941F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4EA25EE22C522B000B8941F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4EA25F022C522B000B8941F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4EA25F722C5259100B8941F /* ApplesearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplesearchTableViewController.swift; sourceTree = "<group>"; };
+		A4EA25F922C525FB00B8941F /* AppleItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleItemTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				A4EA25F622C5235B00B8941F /* Resources */,
 				A4EA25E822C522AF00B8941F /* Main.storyboard */,
+				A4EA25F722C5259100B8941F /* ApplesearchTableViewController.swift */,
+				A4EA25F922C525FB00B8941F /* AppleItemTableViewCell.swift */,
 			);
 			path = AppleSearchNew;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4EA25FA22C525FB00B8941F /* AppleItemTableViewCell.swift in Sources */,
+				A4EA25F822C5259100B8941F /* ApplesearchTableViewController.swift in Sources */,
 				A4EA25E522C522AF00B8941F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,7 +296,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZLX8VSJT3;
-				INFOPLIST_FILE = AppleSearchNew/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AppleSearchNew/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +314,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZLX8VSJT3;
-				INFOPLIST_FILE = AppleSearchNew/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AppleSearchNew/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
