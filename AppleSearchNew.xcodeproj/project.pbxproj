@@ -13,6 +13,8 @@
 		A4EA25EF22C522B000B8941F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4EA25ED22C522B000B8941F /* LaunchScreen.storyboard */; };
 		A4EA25F822C5259100B8941F /* ApplesearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EA25F722C5259100B8941F /* ApplesearchTableViewController.swift */; };
 		A4EA25FA22C525FB00B8941F /* AppleItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EA25F922C525FB00B8941F /* AppleItemTableViewCell.swift */; };
+		A4EA25FC22C529A700B8941F /* AppleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EA25FB22C529A700B8941F /* AppleItem.swift */; };
+		A4EA260022C52C5800B8941F /* AppleItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EA25FF22C52C5800B8941F /* AppleItemController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A4EA25F022C522B000B8941F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4EA25F722C5259100B8941F /* ApplesearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplesearchTableViewController.swift; sourceTree = "<group>"; };
 		A4EA25F922C525FB00B8941F /* AppleItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleItemTableViewCell.swift; sourceTree = "<group>"; };
+		A4EA25FB22C529A700B8941F /* AppleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleItem.swift; sourceTree = "<group>"; };
+		A4EA25FF22C52C5800B8941F /* AppleItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleItemController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 		A4EA25E322C522AF00B8941F /* AppleSearchNew */ = {
 			isa = PBXGroup;
 			children = (
+				A4EA25FF22C52C5800B8941F /* AppleItemController.swift */,
 				A4EA25F622C5235B00B8941F /* Resources */,
 				A4EA25E822C522AF00B8941F /* Main.storyboard */,
-				A4EA25F722C5259100B8941F /* ApplesearchTableViewController.swift */,
+				A4EA25FE22C52C2A00B8941F /* ViewController */,
 				A4EA25F922C525FB00B8941F /* AppleItemTableViewCell.swift */,
+				A4EA25FD22C52C0F00B8941F /* Models */,
 			);
 			path = AppleSearchNew;
 			sourceTree = "<group>";
@@ -73,6 +79,22 @@
 				A4EA25F022C522B000B8941F /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		A4EA25FD22C52C0F00B8941F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A4EA25FB22C529A700B8941F /* AppleItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A4EA25FE22C52C2A00B8941F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A4EA25F722C5259100B8941F /* ApplesearchTableViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,8 +169,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4EA25FA22C525FB00B8941F /* AppleItemTableViewCell.swift in Sources */,
+				A4EA260022C52C5800B8941F /* AppleItemController.swift in Sources */,
 				A4EA25F822C5259100B8941F /* ApplesearchTableViewController.swift in Sources */,
 				A4EA25E522C522AF00B8941F /* AppDelegate.swift in Sources */,
+				A4EA25FC22C529A700B8941F /* AppleItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

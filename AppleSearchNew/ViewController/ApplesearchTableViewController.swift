@@ -9,6 +9,9 @@
 import UIKit
 
 class ApplesearchTableViewController: UITableViewController {
+    
+    //https://itunes.apple.com/search?parameterkeyvalue
+    
 
     @IBOutlet weak var searchBar: UISearchBar!
     override func viewDidLoad() {
